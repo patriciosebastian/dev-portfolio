@@ -168,13 +168,15 @@ textarea:not([rows]) {
 /********** STYLE CHANGES **********/
 
 .hero-section1 {
-  /* display: flex; */
   height: 100svh;
   position: relative;
 }
 
-.hero-content-container {
-  /*  */
+.hero-section1__heading-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /********** NAV **********/
