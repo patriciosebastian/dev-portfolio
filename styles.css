@@ -167,8 +167,10 @@ textarea:not([rows]) {
 
 /********** STYLE CHANGES **********/
 
-.hero-section {
-  display: flex;
+.hero-section1 {
+  /* display: flex; */
+  height: 100svh;
+  position: relative;
 }
 
 .hero-content-container {
