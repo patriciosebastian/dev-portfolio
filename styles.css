@@ -175,7 +175,8 @@ textarea:not([rows]) {
 .hero-section1__heading-content {
   height: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1.27rem;
 }
@@ -187,6 +188,19 @@ textarea:not([rows]) {
   flex-direction: column;
   justify-content: center;
   gap: 15%;
+}
+
+.is-mobile {
+  visibility: visible;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12.5%;
+} && h1 {
+  line-height: 1.2;
+}
+
+.is-desktop {
+  visibility: hidden;
 }
 
 /********** NAV **********/
@@ -763,8 +777,7 @@ footer {
 
 /* XX Small */
 @media (min-width: 320px) {
-  .hero-section__primary-heading,
-  .hero-section1__heading-content {
+  .hero-section__primary-heading {
     gap: calc(5rem + 2vw);
   }
   /* return to default h1 font-size */
@@ -878,6 +891,13 @@ footer {
 
 /* Large */
 @media (min-width: 992px) {
+  .is-mobile {
+    display: none !important;
+    visibility: hidden;
+  }
+  .is-desktop {
+    visibility: visible;
+  }
   .hero-section__primary-heading {
     gap: calc(5rem + 23vw);
   }

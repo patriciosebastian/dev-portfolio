@@ -36,6 +36,7 @@
 <body>
   <!-- Hero Section -->
   <section class="hero-section">
+    <!-- TODO: replace every thing inside of this section tag with the one below -->
     <div class="hero-section__heading-display-control">
       <div class="hero-section__heading-container">
         <div class="hero-section__primary-heading-container">
@@ -73,8 +74,19 @@
   </section>
   <!-- Hero Section: style-changes -->
   <section class="hero-section1">
-    <!-- TODO: I think I need a duplicate of this section that hides and shows for mobile (for vertical stacking) -->
-    <div class="hero-section1__heading-content">
+    <!-- Mobile Hero Section -->
+    <div class="hero-section1__heading-content is-mobile">
+      <div class="hero-section1__left-content--mobile">
+        <h1>PATRICIO</h1>
+        <h1>SALAZAR</h1>
+      </div>
+      <div class="hero-section1__right-content--mobile">
+        <h1>SOFTWARE</h1>
+        <h1>DEVELOPER</h1>
+      </div>
+    </div>
+    <!-- Desktop Hero Section -->
+    <div class="hero-section1__heading-content is-desktop">
       <div class="hero-section1__left-content">
         <h1>PATRICIO</h1>
         <h1>SOFTWARE</h1>
@@ -84,9 +96,30 @@
         <h1>DEVELOPER</h1>
       </div>
     </div>
-    <!-- Keep the ticker the same? -->
-    <!-- TODO: Change copy: A /Web Developer/ Coding Ideas Into Reality ? -->
-    <div class="hero-section1__ticker">
+    <div class="hero-section__ticker">
+      <div class="hero-section__ticker-content">
+        <p>A WEB DEVELOPER THAT CODES IDEAS INTO REALITY</p>
+      </div>
+      <!-- For filling ticker gap -->
+      <div class="hero-section__ticker-content ticker-content-2">
+        <p>A WEB DEVELOPER THAT CODES IDEAS INTO REALITY</p>
+      </div>
+      <!-- For filling ticker gap -->
+      <div class="hero-section__ticker-content ticker-content-3">
+        <p>A WEB DEVELOPER THAT CODES IDEAS INTO REALITY</p>
+      </div>
+      <!-- For filling ticker gap -->
+      <div class="hero-section__ticker-content ticker-content-4">
+        <p>A WEB DEVELOPER THAT CODES IDEAS INTO REALITY</p>
+      </div>
+      <!-- For filling ticker gap -->
+      <div class="hero-section__ticker-content ticker-content-5">
+        <p>A WEB DEVELOPER THAT CODES IDEAS INTO REALITY</p>
+      </div>
+    </div>
+    <!-- TODO: this is displaying incorrectly for 'is-mobile' due to 'is-desktop' visibility hidden instead of display none. figure out the spacing/positioning for this -->
+    <div class="hero-section__cta-container">
+      <a class="hero-section__cta" href="#about">LEARN MORE</a>
     </div>
   </section>
   <!-- Nav -->
