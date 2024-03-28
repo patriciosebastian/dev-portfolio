@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@picocss/pico": "^2.0.6",
     "embla-carousel": "^8.0.0"
   },
   "devDependencies": {
