@@ -188,3 +188,25 @@ body.__className_d65c78[data-scroll-locked="1"] {
 .formkit-background {
   z-index: -1;
 }
+
+.store-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.store-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-image: url("/Gray_swirl_gradient.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 4px;
+  z-index: -1;
+}

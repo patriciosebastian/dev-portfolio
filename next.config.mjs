@@ -7,6 +7,11 @@ const nextConfig = {
         hostname: 'nsdysbxlabtmtxscxqvw.supabase.co',
         pathname: '/storage/v1/object/public/personal-website/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'public-files.gumroad.com',
+        pathname: '/*',
+      },
     ],
   },
 };

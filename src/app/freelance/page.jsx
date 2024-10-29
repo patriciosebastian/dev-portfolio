@@ -1,6 +1,6 @@
 import MainFooter from "@/components/main-footer"
 import MobileNav from "@/components/mobile-nav"
-import { Button, buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Spacer from "@/components/ui/spacer"
 import Image from "next/image"
